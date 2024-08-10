@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Tailwind Project</title>
+  <link href="../dist/styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">My Website</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#" class="hover:text-gray-300">Home</a></li>
+          <li><a href="#" class="hover:text-gray-300">About</a></li>
+          <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-white p-10 text-center">
+    <h2 class="text-3xl font-bold mb-4">Welcome to My Website</h2>
+    <p class="text-lg mb-6">This is a simple hero section using Tailwind CSS.</p>
+    <a href="#" class="bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-700">Get Started</a>
+  </section>
+
+  <!-- Features Section -->
+  <section class="p-10 bg-gray-200">
+    <h3 class="text-2xl font-semibold mb-6 text-center">Features</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h4 class="font-bold text-xl mb-2">Feature 1</h4>
+        <p>Details about the first feature.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h4 class="font-bold text-xl mb-2">Feature 2</h4>
+        <p>Details about the second feature.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <h4 class="font-bold text-xl mb-2">Feature 3</h4>
+        <p>Details about the third feature.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="p-10 text-center">
+    <h3 class="text-2xl font-semibold mb-6">What Our Clients Say</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="bg-gray-200 p-6 rounded-lg">
+        <p class="italic">"Great service! Highly recommended."</p>
+        <p class="mt-4 font-bold">- John Doe</p>
+      </div>
+      <div class="bg-gray-200 p-6 rounded-lg">
+        <p class="italic">"The best experience I've ever had!"</p>
+        <p class="mt-4 font-bold">- Jane Smith</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="bg-blue-600 text-white p-10 text-center">
+    <h3 class="text-2xl font-bold mb-4">Ready to get started?</h3>
+    <p class="text-lg mb-6">Sign up today and start using our service!</p>
+    <a href="#" class="bg-white text-blue-600 font-semibold py-2 px-4 rounded hover:bg-gray-200">Sign Up Now</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white p-4 text-center">
+    <p>© 2024 My Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
